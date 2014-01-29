@@ -1,0 +1,163 @@
+[
+  {
+    "Company": {
+      "Display": {
+        "company_name": "Company name",
+        "company_description": "250-character 
+
+company description without unverifiable information",
+        "company_url": "URL with http(s):// for main company page",
+    
+
+    "twitter": "@goinstant"
+      }
+    },
+    "Contact": {
+      "contact_name": "Name of person sumitting information",
+      
+
+"contact_email": "Email of person submitting data"
+    },
+    "Product": [
+      {
+        "Product_name": "Name of product",
+    
+
+    "Product_url": "URL with http(s):// for page with product specific infromation",
+        "Target_audience": {
+          
+
+"Display": {
+            "tag_personal": "TRUE or FALSE - Is the tool designed for basic web admins of small sites?",
+         
+
+   "tag_business": "TRUE or FALSE - Is the tool designed for IT and enterprise developers at larger scale businesses and 
+
+contact centers that provide web-based services in support of their primary business",
+            "tag_web_based": "TRUE or 
+
+FALSE - Is the tool designed for web and app developers at companies where providing web-powered services to consumers or 
+
+businesses is the primary business.",
+            "tag_telecom_service": "TRUE or FALSE - Is the tool designed for service 
+
+and network developers at the roughly 2000 traditional and competitive telecom service providers who power the PSTN and the 
+
+associated communities – like the telephony people inside enterprises – that interconnect with them."
+          },
+          
+
+"Validation": {
+            "personal_url": "url pointing to personal tools as described above",
+            "business_url": 
+
+"url pointing to enterprise tools  as described above",
+            "web_based_url": "url pointing to web/app developer tools 
+
+ as described above",
+            "telecom_url": "url pointing to enterprise tools  as described above"
+          }
+        },
+  
+
+      "Developer_skills": {
+          "Display": {
+            "tag_outsource": "TRUE or FALSE - do you provide custom 
+
+development services on contractual basis?",
+            "tag_plug_in": "TRUE or FALSE - do you provide a simple to install 
+
+plug-ins and/or widgets for website admins with minimal development expertise?",
+            "tag_front_end_web": "TRUE or 
+
+FALSE - do you provide SDKs and API services for web developers who specialize in user-facing aspects of coding like layout 
+
+and user interface – i.e. JavaScript SDK’s, REST API’s?",
+            "tag_back_end_web": "TRUE or FALSE - do you provide 
+
+modules, SDK’s, and frameworks for server-side developers who specialize in enabling the underlying the service and network 
+
+infrastructure – i.e. tools for .NET, node.js, Python, C++, etc.?",
+            "tag_telecom": "TRUE or FALSE - do you 
+
+provide software and/or hardware for developers with expertise on telecom protocols, networks, and services – SIP, 3GPP IMS, 
+
+etc.",
+            "tag_mobile": "TRUE or FALSE - do you provide SDKs for native applications developers (non-web but often 
+
+leveraging web-oriented development) – iOS, Android, Windows Phone, BB10, etc."
+          },
+          "Validation": {
+         
+
+   "outsource_url": "link to documentation describing your developer service?",
+            "plug_in_url": "link to 
+
+documentation describing your plugin(s) and/or widget(s)",
+            "front_end_web_url": "link to documentation describing 
+
+your front-end web development tool?",
+            "back_end_web_url": "link to documentation describing your back-end web 
+
+development tool?",
+            "telecom_url": "link to documentation describing your telecom development tool?",
+            
+
+"mobile_url": "link to documentation describing native mobile application development tool?"
+          }
+        },
+        
+
+"Payment_terms": {
+          "Display": {
+            "tag_commercial": "TRUE or FALSE - are your tools offered on a paid 
+
+commercial basis (product only)?",
+            "tag_freemium": "TRUE or FALSE - is your tool provided on a volume basis where 
+
+low-volumes are offered at no charge (time-based trials excluded)?",
+            "tag_opensource": "TRUE or FALSE - is your 
+
+tool available free of charge on an open source licensing model (commercial support options may be available directly or via 
+
+affiliates; should not require used of non-opensource software/services)?"
+          },
+          "Validation": {
+            
+
+"commercial_url": "URL to documentation describing your commerical licensing and terms (if available)",
+            
+
+"freemium_url": "URL to documentation describing your freemium terms and pricing",
+            "opensource_url": "URL(s) 
+
+where open source libraries can be found",
+            "opensource_license": "what license does your open source tool use - 
+
+i.e. BSD2, GPL, MIT, etc.?"
+          }
+        },
+        "Infrastructure_options": {
+          "Display": {
+            
+
+"tag_hosted": "TRUE or FALSE - is the tool offered on a hosted basis where the developer can access the resources via the 
+
+cloud?",
+            "tag_gateway": "TRUE or FALSE - does the tool provide interworking with legacy telephony infrastructure 
+
+such as the PSTN, SIP trunks, and enterprise UC/PBX systems?"
+          },
+          "Validation": {
+            "hosted_url": 
+
+"URL to documentation describing your hosting service",
+            "gateway_url": "URL to documentation describing your 
+
+telephony gateway offering"
+          }
+        }
+      }
+    ]
+  }
+]
