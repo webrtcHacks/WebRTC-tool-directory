@@ -5,7 +5,7 @@
         "company_name": "Company name",
         "company_description": "250-character company description without unverifiable information",
         "company_url": "URL with http(s):// for main company page",
-        "twitter": "@goinstant"
+        "twitter": "twitter handle"
       }
     },
     "Contact": {
